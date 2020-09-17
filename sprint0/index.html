@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint0</title>
+</head>
+<body>
+    <body>
+        <div>
+            <p style="font-size: 70px; margin:-5px"> Clarusway Survey Form</p>
+        </div>
+        <p style="font-size: 24px;">Thank you for taking the time help us improve the platform</p>
+            <form action="result.html" method="GET">
+                <div>
+                    <label>Name <br><br>
+                        <input type="text" name="Name" placeholder="Enter your Name" required></label><br>
+                    <label>Surname <br><br>
+                        <input type="text" name="Surname" placeholder="Enter your Surname" required></label><br>
+                    <label>Email <br><br>
+                        <input type="email" name="Email" placeholder="user@clarusway.com" required></label><br>
+                </div>
+                <div>
+                    <p style="font-size: 24px;"> Which option best describes your current role?</p>
+                    <select name="Current-Role">
+                        <option value="" disabled selected>Select current role</option>
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="Part Time Job">Part Time Job</option>
+                        <option value="Full Time Learner">Full Time Learner</option>
+                        <option value="Prefer not to Say ">Prefer not to Say</option>
+    ​
+                    </select>
+                </div>
+                <div>
+                    <p style="font-size: 24px;">Would you recommend Clarusway a fried?</p>
+                    <label><input type="radio" name="Reccomend" value="Definitely,Yes" checked>Definitely,Yes</label><br><br>
+                    <label><input type="radio" name="Reccomend" value="Maybe">Maybe</label><br><br>
+                    <label><input type="radio" name="Reccomend" value="Not Sure">Not Sure</label><br><br>
+                    <label><input type="radio" name="Reccomend" value="Definitly,No">Definitely,No</label><br><br>
+                </div>
+                <div>
+                    <p style="font-size: 24px;">What is your favorite feature of Clarusway?</p>
+                    <select name="Favorite Feature">
+                        <option value="Select an Options" selected disabled>Select an Option</option>
+                        <option value="Courses">Courses</option>
+                        <option value="Projects">Projescts</option>
+                        <option value="Community">Community</option>
+                        <option value="Mentors">Mentors</option>
+                    </select>
+    ​
+                </div>
+                <div>
+                    <p style="font-size: 24px;">What would you like to see improved? (Check all that apply)</p>
+                    <label><input type="checkbox" value="Front-end- Projects" name="Improve1">Front-end-
+                        Projects </label><br><br>
+                    <label><input type="checkbox" value="Back-end- Projects" name="Improve2">Back-end-
+                        Projects </label><br><br>
+                    <label><input type="checkbox" value="Data Science" name="Improve3">Data Science
+                    </label><br><br>
+                    <label><input type="checkbox" value="Additional Courses" name="Improve4">Additional
+                        Courses </label>
+    ​
+                </div>
+    ​
+    ​
+                <div>
+                    <p style="font-size: 24px;">Any comments or suggestions?</p>
+                    <textarea name="Comment" id="" cols="15" rows="3"
+                        placeholder="Enter your comment here.. Thanks for your comments"></textarea>
+                    <input type="submit" value="Submit">
+                </div>
+    ​
+    ​
+    ​
+            </form>
+    
+</body>
+</html>

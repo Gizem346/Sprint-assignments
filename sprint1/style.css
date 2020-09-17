@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px;
+}
+
+.main-content {
+    font-family: poppins, sans-serif;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.text-section {
+    display: flex;
+    padding: 0 180px;
+    margin-bottom: 25px;
+    
+}
+
+.heading-left, .heading-right {
+    flex: 1; 
+}
+
+.main-content {
+    font-family: poppins, sans-serif;
+    display: block;
+
+}
+
+.team-section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.members {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+      
+}
+
+.img-container {
+    margin-bottom: 75px;
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+img {
+    width: 70%;
+    height:auto;
+    box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+}
+
+#header1 {
+    font-weight: bold;
+    font-family: "PT Serif", serif;
+    font-size: 36px;
+    letter-spacing: -1.62px;
+    line-height: 48px;
+}
+
+#header3 {
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 27px;
+    margin: 0px 0px 10px;
+    padding: 0;
+}
+
+#paragraph-right {
+    line-height: 27px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-container > span {
+    align-self: flex-end;
+    position: absolute;
+    top: -0.5vw;
+    right: 5.5vw;
+    /* right: -90px; */
+    writing-mode: vertical-lr;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* .saba-griff {
+    margin-top: 100px;
+} */
+
+.down {
+   margin-top: 100px;
+
+}
+
+.members p {
+    font-weight: 600px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .heading-left .heading-right {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text-section {
+        margin:100px 0px;
+      }
+
+      .img-container {
+          flex: 40%;
+      }
+}
